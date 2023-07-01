@@ -1,0 +1,299 @@
+/* Roboto Regular */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto/Roboto-Regular.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('./fonts/Roboto/Roboto-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./fonts/Roboto/Roboto-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+        url('./fonts/Roboto/Roboto-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./fonts/Roboto/Roboto-Regular.svg') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Roboto Thin Italic */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto/Roboto-LightItalic.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/Roboto/Roboto-LightItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('./fonts/Roboto/Roboto-LightItalic.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./fonts/Roboto/Roboto-LightItalic.woff') format('woff'), /* Pretty Modern Browsers */
+        url('./fonts/Roboto/Roboto-LightItalic.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./fonts/Roboto/Roboto-LightItalic.svg') format('svg'); /* Legacy iOS */
+    font-weight: 200;
+    font-style: italic;
+}
+
+/* Roboto Thin */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto/Roboto-Thin.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/Roboto/Roboto-Thin.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('./fonts/Roboto/Roboto-Thin.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./fonts/Roboto/Roboto-Thin.woff') format('woff'), /* Pretty Modern Browsers */
+        url('./fonts/Roboto/Roboto-Thin.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./fonts/Roboto/Roboto-Thin.svg') format('svg'); /* Legacy iOS */
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* Roboto Black */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto/Roboto-Black.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/Roboto/Roboto-Black.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('./fonts/Roboto/Roboto-Black.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./fonts/Roboto/Roboto-Black.woff') format('woff'), /* Pretty Modern Browsers */
+        url('./fonts/Roboto/Roboto-Black.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./fonts/Roboto/Roboto-Black.svg') format('svg'); /* Legacy iOS */
+    font-weight: bolder;
+    font-style: normal;
+}
+
+
+/* Roboto Bold */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto/Roboto-Bold.eot'); /* IE9 Compat Modes */
+    src: url('./fonts/Roboto/Roboto-Bold.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('./fonts/Roboto/Roboto-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+        url('./fonts/Roboto/Roboto-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+        url('./fonts/Roboto/Roboto-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('./fonts/Roboto/Roboto-Bold.svg') format('svg'); /* Legacy iOS */
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+
+/* Header styling */
+
+.header {
+    background-color: #1f2937;
+    flex: 1 1 0;
+}
+
+.navbar {
+    padding: 16px 80px 16px 80px;
+}
+
+.navbar>ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1em;
+}
+
+.navbar>ul>li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0 auto 0 0;
+    font-weight: bold;
+}
+
+/* Banner styling */
+
+.banner {
+    display: flex;
+    padding: 50px 80px;
+    gap: 3em;
+    justify-content: center;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.banner-heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+    max-width: 500px;
+}
+
+.banner-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight:200;
+    margin: 0;
+    max-width: 500px;
+}
+
+.banner-signup-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: none;
+}
+
+.banner-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d5f67;
+    padding: 30px;
+}
+
+.placeholder-text-banner-image {
+    color: #F9FAF8;
+    font-weight: 200;
+    text-align: center;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+/* main */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 120px 50px 120px;
+}
+
+.main-content-heading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.main-content-gallery {
+    display: flex;
+    gap: 0.5em;
+}
+
+.content1,
+.content2,
+.content3,
+.content4 {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image1,
+.image2,
+.image3,
+.image4 {
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0;
+}
+
+.description1,
+.description2,
+.description3,
+.description4 {
+    text-align: center;
+    color: #2b2b2b;
+    font-weight: lighter;
+}
+
+/* quote styling */
+
+.blockquote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    margin: 0;
+    padding: 50px 140px;
+    align-items: flex-end;
+}
+
+.quote {
+    font-weight: 200;
+    font-size: 36px;
+    font-style: italic;
+}
+
+/* Call to action styling */
+
+.call-to-action {
+    padding: 50px 80px;
+    margin: 0;
+}
+
+.coloured {
+    margin: 0;
+    background-color: #3882F6;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    border-radius: 6px;
+}
+
+.call-to-action-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 0.2em;
+}
+
+.call-to-action-heading {
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.call-to-action-text {
+    margin: 0;
+    color: #E5E7EB;
+    font-weight: lighter;
+}
+
+.call-to-action-sign-up-button {
+    color: #E5E7EB;
+    padding: 4px 24px;
+    border-radius: 8px;
+    border: 1px solid #F9FAF8;
+    background-color: #3882F6;
+}
+
+/* Footer styling */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: #E5E7EB;
+    font-weight: 200;
+}
